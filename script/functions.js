@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 let time = new Date();
                 let now = time.toLocaleTimeString();
 
-                let title = document.querySelectorAll('.h3-title').innerText;
-                console.log(title)
+                let title = document.getElementsByClassName('h3-title').innerText;
+                console.log(title);
                 
                 let p = document.createElement('p');
                 p.style.padding = '6px';
